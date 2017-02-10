@@ -1,5 +1,6 @@
 # node.js-cluster-socket.io-rooms
-Made with Node.js 6.9.2, socket.io 1.7.2, socket.io-redis 3.1.0, Redis 3.2.1
+<b>Made with</b>
+Node.js 6.9.2, socket.io 1.7.2, socket.io-redis 3.1.0, Redis 3.2.1
 
 <b>Useful</b>
 
