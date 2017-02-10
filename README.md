@@ -11,4 +11,4 @@ This is a useful feature to send notifications to a group of users (in rooms), o
 
 Master manages connections, workers makes calculations.
 
-Master fork workers numCPUs-1 and listen events from client. When master accept new client connection - looking for an empty existing room or create new room (attach next room) in redis. If the room is more than (settings.needNumClientsToStartCalcRoom) people - start calculated on attached worker. When room on worker lifetime ends - worker destroy room and disconnect all clients from master.
+Master fork workers <numCPUs-1> and listen events from client. When master accept new client connection - looking for an empty existing room or create new room (attach next room) in redis. If the room is more than (settings.needNumClientsToStartCalcRoom) people - start calculated on attached worker. When room on worker lifetime ends - worker destroy room and disconnect all clients from master.
