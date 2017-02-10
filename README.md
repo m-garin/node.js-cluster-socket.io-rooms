@@ -7,6 +7,4 @@ This is a useful feature to send notifications to a group of users (in rooms), o
 
 <b>Features</b>
 
-Master fork workers numCPUs-1 and listen events from client. When master accept new client connection - looking for an empty existing 
-room or create new room (attach next room) in redis. If the room is more than (settings.needNumClientsToStartCalcRoom) people - start
-calculated on attached worker.
+Master fork workers numCPUs-1 and listen events from client. When master accept new client connection - looking for an empty existing room or create new room (attach next room) in redis. If the room is more than (settings.needNumClientsToStartCalcRoom) people - start calculated on attached worker.
